@@ -1,0 +1,9 @@
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url: https://www.guerrillamail.com
+      browser_name: chrome
+      default_session: selenium2
+      selenium2:
+        wd_host: http://127.94.0.1:4444/wd/hub
+       # capabilities: {'browser':'firefox', 'version':'46'}
